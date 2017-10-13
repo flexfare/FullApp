@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btPost"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imAvatar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/circle"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/dp"/>
+
+                <EditText
+                    android:id="@+id/etDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#EEEE"
+                    android:gravity="top"
+                    android:hint="@string/latest"
+                    android:maxLength="140"
+                    android:padding="6dp"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boder_edittext"
+                    android:hint="Post Title..."
+                    android:padding="16dp"
+                    android:visibility="gone" />
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btAddImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etTitle"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/camera_enhance" />
+                <!--<Button-->
+                    <!--android:id="@+id/btAddImage"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@android:color/white"-->
+                    <!--android:drawableLeft="@drawable/ic_add_icon"-->
+                    <!--android:drawablePadding="16dp"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Add Image"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textSize="16sp" />-->
+
+                <ImageButton
+                    android:id="@+id/imPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_below="@id/btAddImage"
+                    android:background="@drawable/no_image"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/check" />
+    <!--<Button-->
+        <!--android:id="@+id/btPost"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="SUBMIT POST"-->
+        <!--android:textAllCaps="true" />-->
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_web_client_id">781817751401-72jk2k9j87qf5g1q9hgblb8qnuvv7e8d.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1527496567342625</string>
+    <string name="facebook_large_image_url_pattern">https://graph.facebook.com/%1$s/picture?type=large</string>
+    <string name="google_large_image_url_pattern">%1$s?sz=%2$d</string>
+</resources>

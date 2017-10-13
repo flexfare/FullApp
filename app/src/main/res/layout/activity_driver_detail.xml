@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Not sure I've changed anything here tho-->
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="?colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/activity_main"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="?colorPrimary">-->
+
+    <!--<com.flexfare.flextools.CustomLayout-->
+        <!--android:id="@+id/diagonalLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="230dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:elevation="10dp"-->
+        <!--android:paddingBottom="0dp">-->
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/pick_car"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top|end"-->
+            <!--android:src="@drawable/ic_party_mode_black_24dp" />-->
+        <!--<com.flaviofaria.kenburnsview.KenBurnsView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:cropToPadding="false"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/camry" />-->
+    <!--</com.flexfare.flextools.CustomLayout>-->
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:id="@+id/avatar"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="170dp"-->
+        <!--android:background="@drawable/circle"-->
+        <!--android:elevation="30dp"-->
+        <!--android:src="@drawable/profile"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/diagonalLayout"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="4">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="260dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/driver_name"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginEnd="11dp"-->
+                <!--android:layout_marginRight="11dp"-->
+                <!--android:fontFamily="sans-serif-condensed"-->
+                <!--android:text="@string/driver_name"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="20sp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/driver_no"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_below="@+id/driver_name"-->
+                <!--android:layout_marginEnd="11dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="11dp"-->
+                <!--android:fontFamily="sans-serif-condensed"-->
+                <!--android:text="@string/driver_no"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/driver_plate"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_below="@+id/driver_no"-->
+                <!--android:layout_marginEnd="11dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="11dp"-->
+                <!--android:fontFamily="sans-serif-condensed"-->
+                <!--android:text="@string/driver_plate"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="2dp"-->
+                <!--android:layout_below="@id/driver_plate"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="#FF9800"-->
+                <!--android:id="@+id/view" />-->
+        <!--</RelativeLayout>-->
+    <!--</RelativeLayout>-->
+    <!--<TextView-->
+        <!--android:id="@+id/about_driver"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginTop="320dp"-->
+        <!--android:text=""-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="20sp"/>-->
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_update_profile"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_below="@+id/about_driver"-->
+        <!--android:text="Update profile"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="18sp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:background="@drawable/bt_shape"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentLeft="true"/>-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:layout_below="@id/btn_update_profile"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="#FF9800"-->
+        <!--android:id="@+id/view1" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/states_activity"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_marginLeft="55dp"-->
+        <!--android:layout_marginStart="55dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@id/view1"-->
+        <!--android:src="@drawable/ic_seat_recline_normal" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/chat"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_toRightOf="@id/states_activity"-->
+        <!--android:layout_toEndOf="@+id/states_activity"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@id/view1"-->
+        <!--android:src="@drawable/ic_comment_account_outline" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/me"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_toRightOf="@id/chat"-->
+        <!--android:layout_toEndOf="@+id/chat"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@id/view1"-->
+        <!--android:src="@drawable/ic_target" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/route"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_toRightOf="@id/me"-->
+        <!--android:layout_toEndOf="@+id/me"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_below="@id/view1"-->
+        <!--android:src="@drawable/ic_gauge" />-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="gone"/>-->
+<!--</RelativeLayout>-->
+</ScrollView>

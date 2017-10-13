@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.DriverDetail">
+    <item
+        android:id="@+id/edit_header"
+        android:icon="@drawable/account_edit"
+        android:title="@string/edit_header"
+        app:showAsAction="always" />
+
+</menu>

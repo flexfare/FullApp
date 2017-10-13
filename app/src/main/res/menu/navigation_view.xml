@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news_feed"
+            android:icon="@drawable/comment_account_outline"
+            android:title="@string/news_feed"/>
+        <item
+            android:id="@+id/driver_detail"
+            android:icon="@drawable/ic_seat_recline_normal"
+            android:title="@string/driver_detail">
+        </item>
+        <item
+            android:id="@+id/point_me"
+            android:icon="@drawable/crosshairs_gps"
+            android:title="@string/loc"/>
+        <item
+            android:id="@+id/findRoute"
+            android:icon="@drawable/gauge"
+            android:title="@string/route"/>
+        <item
+            android:id="@+id/updateProf"
+            android:icon="@drawable/account_edit"
+            android:title="@string/acct_info"/>
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_item_share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_item_send"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

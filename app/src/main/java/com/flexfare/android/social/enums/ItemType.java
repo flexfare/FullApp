@@ -1,0 +1,17 @@
+package com.flexfare.android.social.enums;
+
+/**
+ * Created by kodenerd on 10/9/17.
+ */
+
+public enum ItemType {LOAD(10), ITEM(11);
+    private final int typeCode;
+
+    ItemType(int typeCode) {
+        this.typeCode = typeCode;
+    }
+
+    public int getTypeCode() {
+        return this.typeCode;
+    }
+}

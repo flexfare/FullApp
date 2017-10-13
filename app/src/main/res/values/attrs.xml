@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexFare">
+        <attr name="diagonal_angle" format="integer" />
+        <attr name="diagonal_handleMargins" format="boolean"/>
+        <attr name="diagonal_position" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="4" />
+            <enum name="top" value="8"/>
+        </attr>
+        <attr name="diagonal_direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CurvedImage">
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_position">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <attr name="arc_cropDirection" format="enum">
+            <enum name="cropInside" value="0" />
+            <enum name="cropOutside" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--Form styleable-->
+
+    <declare-styleable name="EasyForm">
+        <attr name="submitButton" format="reference" />
+        <attr name="showErrorOn" format="enum">
+            <enum name="unfocus" value="0" />
+            <enum name="change" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="EasyFormEditText">
+        <attr name="errorType" format="enum">
+            <enum name="empty" value="0" />
+            <enum name="pattern" value="1" />
+            <enum name="value" value="2" />
+            <enum name="chars" value="3" />
+        </attr>
+        <attr name="errorMessage" format="string|reference" />
+        <attr name="regexPattern" format="string|reference" />
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="minChars" format="integer" />
+        <attr name="maxChars" format="integer" />
+
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="EasyAutoCompleteTextView">
+        <attr name="errorType" />
+        <attr name="errorMessage" />
+        <attr name="regexPattern" />
+        <attr name="minChars" />
+        <attr name="maxChars" />
+        <attr name="items" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MenuView">
+        <!-- The menu resource to inflate and populate items from -->
+        <attr name="menu" format="reference" />
+        <!-- Layout resource to inflate as the header -->
+        <attr name="headerLayout" format="reference" />
+        <!-- If menu must be drawn below the FAB -->
+        <attr name="drawMenuBelowFab" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandText" format="string" />
+        <attr name="collapseText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="shadow" format="boolean" />
+        <attr name="shadow_color" format="color" />
+        <attr name="shadow_radius" format="dimension" />
+    </declare-styleable>
+
+</resources>

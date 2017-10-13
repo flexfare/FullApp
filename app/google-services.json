@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "781817751401",
+    "firebase_url": "https://fbfeed-d9e1e.firebaseio.com",
+    "project_id": "fbfeed-d9e1e",
+    "storage_bucket": "fbfeed-d9e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781817751401:android:f6706c804dbd7b4d",
+        "android_client_info": {
+          "package_name": "org.gitmad.firebasefeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781817751401-72jk2k9j87qf5g1q9hgblb8qnuvv7e8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYwbcnElI3Utiu9hdPJNiEOOhcHudZVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781817751401:android:f9bb53a6892eddea",
+        "android_client_info": {
+          "package_name": "com.example.mxhung.blogsimple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781817751401-72jk2k9j87qf5g1q9hgblb8qnuvv7e8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYwbcnElI3Utiu9hdPJNiEOOhcHudZVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781817751401:android:268bc2c9828e0d1c",
+        "android_client_info": {
+          "package_name": "com.mbobiosio.flexfare.flexsocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781817751401-72jk2k9j87qf5g1q9hgblb8qnuvv7e8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYwbcnElI3Utiu9hdPJNiEOOhcHudZVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781817751401:android:bf4324278988c58a",
+        "android_client_info": {
+          "package_name": "com.flexfare.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781817751401-72jk2k9j87qf5g1q9hgblb8qnuvv7e8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYwbcnElI3Utiu9hdPJNiEOOhcHudZVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
